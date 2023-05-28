@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas_Pertemuan08</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="toucan">Toucan</string>
+    <string name="ular">Ular</string>
+    <string name="macan">Macan</string>
+    <string name="monyet">Monyet</string>
+    <string name="jerapah">Jerapah</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_toucan">
+
+    <fragment
+        android:id="@+id/navigation_toucan"
+        android:name="com.example.tugas_pertemuan08.ui.home.HomeFragment"
+        android:label="@string/toucan"
+        tools:layout="@layout/fragment_toucan" />
+
+    <fragment
+        android:id="@+id/navigation_ular"
+        android:name="com.example.tugas_pertemuan08.ui.dashboard.DashboardFragment"
+        android:label="@string/ular"
+        tools:layout="@layout/fragment_ular" />
+
+    <fragment
+        android:id="@+id/navigation_macan"
+        android:name="com.example.tugas_pertemuan08.ui.notifications.NotificationsFragment"
+        android:label="@string/macan"
+        tools:layout="@layout/fragment_macan" />
+
+    <fragment
+        android:id="@+id/navigation_monyet"
+        android:name="com.example.tugas_pertemuan08.ui.notifications.NotificationsFragment"
+        android:label="@string/monyet"
+        tools:layout="@layout/fragment_macan" />
+
+    <fragment
+        android:id="@+id/navigation_jerapah"
+        android:name="com.example.tugas_pertemuan08.ui.notifications.NotificationsFragment"
+        android:label="@string/jerapah"
+        tools:layout="@layout/fragment_macan" />
+</navigation>

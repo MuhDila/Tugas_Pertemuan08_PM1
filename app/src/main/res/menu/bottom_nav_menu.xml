@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_toucan"
+        android:icon="@drawable/toucan"
+        android:title="@string/toucan" />
+
+    <item
+        android:id="@+id/navigation_ular"
+        android:icon="@drawable/ular"
+        android:title="@string/ular" />
+
+    <item
+        android:id="@+id/navigation_macan"
+        android:icon="@drawable/macan"
+        android:title="@string/macan" />
+
+    <item
+        android:id="@+id/navigation_monyet"
+        android:icon="@drawable/monyet"
+        android:title="@string/monyet" />
+
+    <item
+        android:id="@+id/navigation_jerapah"
+        android:icon="@drawable/jerapah"
+        android:title="@string/jerapah" />
+
+</menu>
