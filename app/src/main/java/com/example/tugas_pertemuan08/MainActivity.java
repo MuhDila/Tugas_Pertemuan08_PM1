@@ -1,10 +1,13 @@
 package com.example.tugas_pertemuan08;
 
 import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -20,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        // Setting warna status bar dan navigation bar
+        statusNavBar();
+
+        // Hapus action bar
+        getSupportActionBar().hide();
+
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -34,5 +43,17 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
+
+    // Setting warna status bar dan navigation bar
+    private void statusNavBar() {
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR | View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);
+        // Set the status bar color
+        Window window = getWindow();
+        int statusBarColor = ContextCompat.getColor(this, R.color.cosmic_latte);
+        int navigatorBarColor = ContextCompat.getColor(this, R.color.cosmic_latte);
+        window.setStatusBarColor(statusBarColor);
+        window.setNavigationBarColor(navigatorBarColor);
+    }
+
 
 }
