@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tugas_Pertemuan08</string>
+    <string name="app_name">Muh Dila - Tugas Pertemuan 8</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -10,8 +10,9 @@
     <string name="jerapah">Jerapah</string>
     <string name="tukan">Tukan</string>
     <string name="decs_tukan">Tukan adalah burung daerah tropis berparuh besar. Tukan hidup di hutan-hutan tropis. Ada 37 jenis burung tukan, banyak di antaranya yang hidup di hutan-hutan Amerika Tengah dan Selatan. Burung tukan hidup dalam kawanan kecil di puncak pohon. Burung ini tampangnya mirip dengan burung rangkong, tetapi beda keluarga.</string>
-    <string name="lihat_lebih_lengkap">Lihat Lebih Lengkap</string>
+    <string name="lihat_lebih_lengkap">Lihat Gambar Abstact</string>
     <string name="decs_ular">Ular adalah kelompok reptilia tidak berkaki dan bertubuh panjang yang tersebar luas di dunia. Secara ilmiah, semua jenis ular dikelompokkan dalam satu sub-ordo, yaitu Serpentes dan juga merupakan anggota dari ordo Squamata (reptilia bersisik) bersama dengan kadal. Akan tetapi, ular sendiri diklasifikasikan pada cabang klade.</string>
     <string name="decs_macan">Macan tutul atau Harimau Bintang adalah salah satu dari empat kucing besar. Hewan ini dikenal juga dengan sebutan harimau dahan karena kemampuannya memanjat. Pada mulanya, orang berpikiran bahwa macan tutul adalah hibrida dari singa dan harimau, sehingga muncul nama leopard, di kalangan peneliti Eropa awal.</string>
     <string name="decs_monyet">Monyet adalah istilah untuk semua anggota primata, atau kera, baik yang tinggal di Dunia Lama maupun Dunia Baru. Hingga saat ini dikenal 264 jenis monyet yang hidup di dunia. Tidak seperti kera, monyet biasanya berekor dan berukuran lebih kecil. Monyet diketahui dapat belajar dan menggunakan alat untuk mendapatkan makanan.</string>
+    <string name="decs_jerapah">Jerapah atau zarafah adalah mamalia berkuku genap endemik Afrika dan merupakan spesies hewan tertinggi yang hidup di darat. Jerapah jantan dapat mencapai tinggi 4,8 sampai 5,5 meter dan memiliki berat yang dapat mencapai 1.360 kilogram. Jerapah betina biasanya sedikit lebih pendek dan lebih ringan dari pada jerapah jantan.</string>
 </resources>
