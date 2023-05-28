@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR | View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);
         // Set the status bar color
         Window window = getWindow();
-        int statusBarColor = ContextCompat.getColor(this, R.color.cosmic_latte);
-        int navigatorBarColor = ContextCompat.getColor(this, R.color.cosmic_latte);
+        int statusBarColor = ContextCompat.getColor(this, R.color.white);
+        int navigatorBarColor = ContextCompat.getColor(this, R.color.white);
         window.setStatusBarColor(statusBarColor);
         window.setNavigationBarColor(navigatorBarColor);
     }
