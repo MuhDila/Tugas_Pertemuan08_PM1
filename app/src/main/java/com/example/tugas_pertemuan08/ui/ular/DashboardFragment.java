@@ -1,4 +1,4 @@
-package com.example.tugas_pertemuan08.ui.notifications;
+package com.example.tugas_pertemuan08.ui.ular;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.tugas_pertemuan08.databinding.FragmentMacanBinding;
+import com.example.tugas_pertemuan08.databinding.FragmentUlarBinding;
 
-public class NotificationsFragment extends Fragment {
+public class DashboardFragment extends Fragment {
 
-    private FragmentMacanBinding binding;
+    private FragmentUlarBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        NotificationsViewModel notificationsViewModel =
-                new ViewModelProvider(this).get(NotificationsViewModel.class);
+        DashboardViewModel dashboardViewModel =
+                new ViewModelProvider(this).get(DashboardViewModel.class);
 
-        binding = FragmentMacanBinding.inflate(inflater, container, false);
+        binding = FragmentUlarBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        notificationsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textDashboard;
+        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

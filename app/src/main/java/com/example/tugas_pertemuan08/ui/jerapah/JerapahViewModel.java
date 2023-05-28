@@ -1,16 +1,15 @@
-package com.example.tugas_pertemuan08.ui.notifications;
+package com.example.tugas_pertemuan08.ui.jerapah;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
-
+public class JerapahViewModel extends ViewModel {
     private final MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public JerapahViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("Jerapah");
     }
 
     public LiveData<String> getText() {

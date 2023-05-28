@@ -1,16 +1,16 @@
-package com.example.tugas_pertemuan08.ui.dashboard;
+package com.example.tugas_pertemuan08.ui.macan;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class NotificationsViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public NotificationsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("Macan");
     }
 
     public LiveData<String> getText() {

@@ -1,16 +1,16 @@
-package com.example.tugas_pertemuan08.ui.home;
+package com.example.tugas_pertemuan08.ui.monyet;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class MonyetViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public MonyetViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Monyet");
     }
 
     public LiveData<String> getText() {
